@@ -8,4 +8,4 @@ RUN yarn build
 FROM registry.etsclass.ml/nginx:1.19-alpine
 WORKDIR /usr/share/nginx/html
 EXPOSE 80
-COPY --from=build build/ ./
+COPY --from=build /usr/src/app/build/ ./
