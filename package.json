@@ -2,6 +2,7 @@
   "name": "wattpad-scraper-web",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -10,11 +11,24 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "antd": "^4.10.2",
+    "bootstrap": "^4.5.3",
+    "cheerio": "^1.0.0-rc.5",
+    "codemirror": "^5.59.1",
+    "file-saver": "^2.0.5",
+    "html-docx-js": "^0.3.1",
+    "html-to-docx": "^1.1.32",
+    "lodash": "^4.17.20",
     "react": "^17.0.1",
+    "react-codemirror2": "^7.2.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "socket.io-client": "^3.1.0",
+    "streamsaver": "^2.0.5",
     "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
+    "web-streams-polyfill": "^3.0.1",
+    "web-vitals": "^0.2.4",
+    "ws": "^7.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +53,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/bootstrap": "^5.0.4",
+    "@types/codemirror": "^0.0.106",
+    "@types/file-saver": "^2.0.1",
+    "@types/html-docx-js": "^0.3.0",
+    "@types/socket.io-client": "^1.4.35",
+    "@types/streamsaver": "^2.0.0",
+    "@types/ws": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "babel-plugin-macros": "^3.0.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "node-sass": "^4",
+    "prettier": "^2.2.1",
+    "ts-nameof.macro": "^4.2.2"
   }
 }
